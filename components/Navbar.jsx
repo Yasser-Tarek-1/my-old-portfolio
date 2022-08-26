@@ -90,7 +90,7 @@ const Navbar = () => {
         <div
           className={`${
             showNav
-              ? "fixed left-0 top-0 bg-[#ecf0f3] w-[75%]  h-screen sm:w-[60%] p-5 ease-linear duration-500 z-50"
+              ? "fixed left-0 top-0 bg-[#ecf0f3] w-[75%]  h-screen sm:w-[60%] p-4 ease-linear duration-500 z-50"
               : "fixed left-[-100%] top-0  duration-500 h-screen ease-linear"
           }`}
         >
