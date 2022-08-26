@@ -134,7 +134,7 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-            <div className="absolute bottom-24 w-[75%]">
+            <div className="absolute bottom-24 w-[75%] p-2">
               <p className="uppercase tracking-widest text-[#5651e5]">
                 Let`s Connect
               </p>
