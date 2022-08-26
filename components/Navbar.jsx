@@ -134,18 +134,18 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-            <div className="pt-40">
+            <div className="absolute bottom-10 w-[75%]">
               <p className="uppercase tracking-widest text-[#5651e5]">
                 Let`s Connect
               </p>
-              <div className="flex items-center justify-between pt-6">
+              <div className="flex items-center pt-6">
                 <Link
                   className="w-full"
                   href="https://www.linkedin.com/in/yasser-tarek-32b257242/"
                   target="_blank"
                 >
                   <a target="_blank">
-                    <div className="rounded-full p-3 shadow-lg shadow-gray-400 cursor-pointer sm:hover:scale-105 ease-in duration-200">
+                    <div className="rounded-full p-3 shadow-lg shadow-gray-400 cursor-pointer sm:hover:scale-105 ease-in duration-200 mx-2">
                       <FaLinkedinIn />
                     </div>
                   </a>
@@ -156,7 +156,7 @@ const Navbar = () => {
                   target="_blank"
                 >
                   <a target="_blank">
-                    <div className="rounded-full p-3 shadow-lg shadow-gray-400 cursor-pointer sm:hover:scale-105 ease-in duration-200">
+                    <div className="rounded-full p-3 shadow-lg shadow-gray-400 cursor-pointer sm:hover:scale-105 ease-in duration-200 mx-2">
                       <FaGithub />
                     </div>
                   </a>
@@ -168,14 +168,14 @@ const Navbar = () => {
                   target="_blank"
                 >
                   <a target="_blank">
-                    <div className="rounded-full p-3 shadow-lg shadow-gray-400 cursor-pointer sm:hover:scale-105 ease-in duration-200">
+                    <div className="rounded-full p-3 shadow-lg shadow-gray-400 cursor-pointer sm:hover:scale-105 ease-in duration-200 mx-2">
                       <AiOutlineMail />
                     </div>
                   </a>
                 </Link>
                 <Link className="w-full" href="tel:01016736238" target="_blank">
                   <a target="_blank">
-                    <div className="rounded-full p-3 shadow-lg shadow-gray-400 cursor-pointer sm:hover:scale-105 ease-in duration-200">
+                    <div className="rounded-full p-3 shadow-lg shadow-gray-400 cursor-pointer sm:hover:scale-105 ease-in duration-200 mx-2">
                       <BsPersonLinesFill />
                     </div>
                   </a>
