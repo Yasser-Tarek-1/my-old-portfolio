@@ -6,11 +6,6 @@ html {
   scroll-behavior: smooth;
 }
 
-:root {
-  --fir: #3586ea;
-  --sec: #3586ea;
-  --thr: #0b9fe5;
-}
 
 @layer base {
   body {
