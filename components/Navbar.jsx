@@ -90,7 +90,7 @@ const Navbar = () => {
         <div
           className={`${
             showNav
-              ? "fixed left-0 top-0 bg-[#ecf0f3] w-[75%]  h-screen sm:w-[60%] p-8 ease-linear duration-500 z-50"
+              ? "fixed left-0 top-0 bg-[#ecf0f3] w-[75%]  h-screen sm:w-[60%] p-5 ease-linear duration-500 z-50"
               : "fixed left-[-100%] top-0  duration-500 h-screen ease-linear"
           }`}
         >
@@ -145,7 +145,7 @@ const Navbar = () => {
                   target="_blank"
                 >
                   <a target="_blank">
-                    <div className="rounded-full p-3 shadow-lg shadow-gray-400 cursor-pointer sm:hover:scale-105 ease-in duration-200 mx-2">
+                    <div className="rounded-full p-3 shadow-lg shadow-gray-400 cursor-pointer sm:hover:scale-105 ease-in duration-200 mx-[5px]">
                       <FaLinkedinIn />
                     </div>
                   </a>
@@ -156,7 +156,7 @@ const Navbar = () => {
                   target="_blank"
                 >
                   <a target="_blank">
-                    <div className="rounded-full p-3 shadow-lg shadow-gray-400 cursor-pointer sm:hover:scale-105 ease-in duration-200 mx-2">
+                    <div className="rounded-full p-3 shadow-lg shadow-gray-400 cursor-pointer sm:hover:scale-105 ease-in duration-200 mx-[5px]">
                       <FaGithub />
                     </div>
                   </a>
@@ -168,14 +168,14 @@ const Navbar = () => {
                   target="_blank"
                 >
                   <a target="_blank">
-                    <div className="rounded-full p-3 shadow-lg shadow-gray-400 cursor-pointer sm:hover:scale-105 ease-in duration-200 mx-2">
+                    <div className="rounded-full p-3 shadow-lg shadow-gray-400 cursor-pointer sm:hover:scale-105 ease-in duration-200 mx-[5px]">
                       <AiOutlineMail />
                     </div>
                   </a>
                 </Link>
                 <Link className="w-full" href="tel:01016736238" target="_blank">
                   <a target="_blank">
-                    <div className="rounded-full p-3 shadow-lg shadow-gray-400 cursor-pointer sm:hover:scale-105 ease-in duration-200 mx-2">
+                    <div className="rounded-full p-3 shadow-lg shadow-gray-400 cursor-pointer sm:hover:scale-105 ease-in duration-200 mx-[5px]">
                       <BsPersonLinesFill />
                     </div>
                   </a>
