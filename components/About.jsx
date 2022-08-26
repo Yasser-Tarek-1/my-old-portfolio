@@ -25,9 +25,12 @@ const About = () => {
               now I have evolved in them and work with the React JS, and I built
               a lot of projects with it.
             </p>
-            <p className="py-2 text-gray-600 underline cursor-pointer">
-              <Link href="/projects/dashboard">
-                Check out some of my latest projects.
+            <p className="py-2 text-gray-600 underline cursor-pointer font-semibold">
+              <Link
+                href="https://drive.google.com/file/d/1FzMdMhI9Qc7fbnL37sPNdwT40F7A4hEQ/view?usp=sharing"
+                target="_blank"
+              >
+                <a target="_blank">Show My CV</a>
               </Link>
             </p>
           </div>
