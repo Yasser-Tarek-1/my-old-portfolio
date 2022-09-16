@@ -37,17 +37,19 @@ const Navbar = () => {
     >
       <div className="container mx-auto p-4 flex items-center justify-between w-full h-full px-2">
         <Link href="/">
-          <Image
-            src={logo}
-            alt="logo"
-            width="100px"
-            height="40px"
-            className={
-              navBar
-                ? "fill-current cursor-pointer"
-                : "fill-current cursor-pointer logo"
-            }
-          />
+          <a>
+            <Image
+              src={logo}
+              alt="logo"
+              width="100px"
+              height="40px"
+              className={
+                navBar
+                  ? "fill-current cursor-pointer"
+                  : "fill-current cursor-pointer logo"
+              }
+            />
+          </a>
         </Link>
         <div>
           <div className="md:hidden w-[100px] flex items-center justify-center">

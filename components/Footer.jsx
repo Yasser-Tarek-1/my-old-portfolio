@@ -18,7 +18,7 @@ const Footer = () => {
             >
               <a target="_blank">
                 <div className="mx-2 rounded-full p-4 md:p-5 shadow-lg shadow-gray-400 cursor-pointer sm:hover:scale-105 ease-in duration-200">
-                  <FaLinkedinIn /> 
+                  <FaLinkedinIn />
                 </div>
               </a>
             </Link>

@@ -14,9 +14,7 @@ import git from "../public/assets/skills/git.svg";
 import react from "../public/assets/skills/react.svg";
 import redux from "../public/assets/skills/redux.svg";
 import material from "../public/assets/skills/material.svg";
-import next from "../public/assets/skills/nextjs.svg";
 import tailwindcss from "../public/assets/skills/tailwindcss.svg";
-import typescript from "../public/assets/skills/ts.svg";
 
 const Skills = () => {
   const settings = {
@@ -123,7 +121,7 @@ const Skills = () => {
                     <Image src={git} alt="/" width="64px" height="64px" />
                   </div>
                   <div>
-                    <h3 className="uppercase text-white">git</h3>
+                    <h3 className="uppercase text-white">git & githun</h3>
                   </div>
                 </div>
               </div>
@@ -143,7 +141,7 @@ const Skills = () => {
                     <Image src={redux} alt="/" width="64px" height="64px" />
                   </div>
                   <div>
-                    <h3 className="uppercase text-white">redux</h3>
+                    <h3 className="uppercase text-white">redux toolkit</h3>
                   </div>
                 </div>
               </div>
@@ -160,16 +158,6 @@ const Skills = () => {
               <div className="p-6  rounded-xl bg-gradient-to-r from-[#5651e5] to-[#709dff]">
                 <div className="flex items-center justify-between">
                   <div>
-                    <Image src={next} alt="/" width="64px" height="64px" />
-                  </div>
-                  <div>
-                    <h3 className="uppercase text-white">next js</h3>
-                  </div>
-                </div>
-              </div>
-              <div className="p-6  rounded-xl bg-gradient-to-r from-[#5651e5] to-[#709dff]">
-                <div className="flex items-center justify-between">
-                  <div>
                     <Image
                       src={tailwindcss}
                       alt="/"
@@ -179,21 +167,6 @@ const Skills = () => {
                   </div>
                   <div>
                     <h3 className="uppercase text-white">tailwindcss</h3>
-                  </div>
-                </div>
-              </div>
-              <div className="p-6  rounded-xl bg-gradient-to-r from-[#5651e5] to-[#709dff]">
-                <div className="flex items-center justify-between">
-                  <div>
-                    <Image
-                      src={typescript}
-                      alt="/"
-                      width="64px"
-                      height="64px"
-                    />
-                  </div>
-                  <div>
-                    <h3 className="uppercase text-white">typescript</h3>
                   </div>
                 </div>
               </div>
