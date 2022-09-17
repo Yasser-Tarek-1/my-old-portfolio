@@ -27,7 +27,7 @@ const About = () => {
             </p>
             <p className="py-2 text-gray-600 underline cursor-pointer font-semibold">
               <Link
-                href="https://drive.google.com/file/d/1NsaMUwQIZZPE1pOHEQ7c1gH48gv5lmCf/view?usp=sharing"
+                href="https://drive.google.com/file/d/1ZzxgaY501OrqNsCOdhFj0ek1FqAMeQAl/view?usp=sharing"
                 target="_blank"
               >
                 <a target="_blank">Show My CV</a>
