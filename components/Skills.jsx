@@ -121,7 +121,7 @@ const Skills = () => {
                     <Image src={git} alt="/" width="64px" height="64px" />
                   </div>
                   <div>
-                    <h3 className="uppercase text-white">git & githun</h3>
+                    <h3 className="uppercase text-white">git & github</h3>
                   </div>
                 </div>
               </div>
